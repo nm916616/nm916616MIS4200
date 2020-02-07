@@ -20,6 +20,9 @@ namespace nm916616MIS4200.Models.DAL
         public DbSet<Customer> Customer { get; set; }
         public DbSet<Products> Products { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<Vets> Vets { get; set; }
+        public DbSet<Pets> Pets { get; set; }
+        public DbSet<Owners> Owners { get; set; }
 
         // add this method - it will be used later
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

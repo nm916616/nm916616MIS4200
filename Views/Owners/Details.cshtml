@@ -1,0 +1,74 @@
+﻿@model nm916616MIS4200.Models.Owners
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Owners</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Pets.petName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pets.petName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vets.vetFirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vets.vetFirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ownerFirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ownerFirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ownerLastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ownerLastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ownerID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
