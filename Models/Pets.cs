@@ -20,7 +20,7 @@ namespace nm916616MIS4200.Models
         public string petType { get; set; }
         [Display(Name = "Patient Since")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString ="{0:MM/dd/yyyy", ApplyFormatInEditMode =true)]
+        [DisplayFormat(DataFormatString ="{0:MM/dd/yyyy}", ApplyFormatInEditMode =true)]
         [Required(ErrorMessage = "Required")]
         public DateTime patientSince { get; set; }
         public ICollection<Owners> Owners { get; set; }

@@ -3211,9 +3211,9 @@ fieldset[disabled] .btn-default.focus {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+    color: #fff;
+    background-color: #c3145e;
+    border-color: #c3145e;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -5047,9 +5047,9 @@ a.badge:focus {
   font-size: 21px;
   font-weight: 200;
 }
-.jumbotron > hr {
-  border-top-color: #d5d5d5;
-}
+    .jumbotron > hr {
+        border-top-color: #c31432;
+    }
 .container .jumbotron,
 .container-fluid .jumbotron {
   padding-right: 15px;
